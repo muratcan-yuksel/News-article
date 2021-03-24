@@ -6,6 +6,7 @@
 	display: grid;
 	grid-template-columns: repeat(11, 1fr);
 	height: 3em;
+	background-color: white;
 }
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
@@ -76,4 +77,23 @@ h1 {
 }
 .icons2 {
 	width: 50%;
+}
+#picContainer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#mainPic {
+	width: 70%;
+}
+#fig {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#alanFig {
+	color: grey;
+	width: 64%;
 }
