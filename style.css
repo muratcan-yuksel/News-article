@@ -141,3 +141,32 @@ body {
 	height: 50%;
 	align-self: center;
 }
+#endBtn {
+	width: 50%;
+	background-color: #567b95;
+	color: white;
+	font-weight: 700;
+	font-size: 0.7em;
+	margin-right: 6em;
+}
+#footerImg {
+	margin-top: 7em;
+	border-top: 5px double grey;
+	width: 80%;
+	align-self: center;
+	margin-bottom: 1em;
+}
+#footer {
+	width: 80%;
+	align-self: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 0.7em;
+}
+#subsc {
+	border-left: 1px solid grey;
+}
+#education {
+	border-bottom: 1px solid grey;
+}
