@@ -3,8 +3,8 @@
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
 	font-size: 14.25px;
-	display: flex;
-	align-items: baseline;
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
 }
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
@@ -20,3 +20,4 @@
 .sticky + .content {
 	padding-top: 102px;
 }
+/* Grid positioning*/
