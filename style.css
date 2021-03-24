@@ -57,3 +57,23 @@
 	grid-column: 2;
 	margin-left: -3em;
 }
+#title {
+	margin-top: 4em;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+h1 {
+	width: 50%;
+	border-bottom: 1px solid grey;
+}
+.icons {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.icons2 {
+	width: 50%;
+}
