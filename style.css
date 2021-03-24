@@ -1,12 +1,20 @@
 #navbar {
 	padding: 10px 16px;
-	background: #555;
-	color: #f1f1f1;
-	height: 100px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	font-size: 14.25px;
 }
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+/* Page content */
+.content {
+	padding: 16px;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+	padding-top: 102px;
 }
