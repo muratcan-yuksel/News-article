@@ -110,10 +110,12 @@ body {
 	align-self: center;
 }
 #signup {
+	border-top: 1px solid grey;
 	display: flex;
 	font-size: 1.1em;
 }
 #signupButton {
+	margin-top: 10px;
 	width: 8em;
 	height: 2em;
 	background-color: white;
@@ -125,4 +127,10 @@ body {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+	font-size: 1.25rem;
+	line-height: 1.875rem;
+	align-self: center;
+}
+#subscribe1 {
+	margin: 0;
 }
