@@ -97,3 +97,10 @@ h1 {
 	color: grey;
 	width: 64%;
 }
+
+#mainContent {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
