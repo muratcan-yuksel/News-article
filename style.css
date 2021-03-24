@@ -130,7 +130,9 @@ body {
 	font-size: 1.25rem;
 	line-height: 1.875rem;
 	align-self: center;
+	justify-content: center;
 }
-#subscribe1 {
-	margin: 0;
+#wrapPart {
+	width: 70%;
+	align-self: center;
 }
