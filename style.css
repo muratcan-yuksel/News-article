@@ -1,0 +1,12 @@
+#navbar {
+	padding: 10px 16px;
+	background: #555;
+	color: #f1f1f1;
+	height: 100px;
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
